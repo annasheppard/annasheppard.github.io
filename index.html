@@ -4,11 +4,7 @@
 <body>
 
     <h1>Anna's Website</h1>
-    
-    <style> .shakeimage{ position:relative } </style> 
-    <script language=”JavaScript1.2″> var rector=3 var stopit=0 var a=1 function init(which){ stopit=0 shake=which shake.style.left=0 shake.style.top=0 } function rattleimage(){ if ((!document.all&&!document.getElementById)||stopit==1) return if (a==1){ shake.style.top=parseInt(shake.style.top)+rector } else if (a==2){ shake.style.left=parseInt(shake.style.left)+rector } else if (a==3){ shake.style.top=parseInt(shake.style.top)-rector } else{ shake.style.left=parseInt(shake.style.left)-rector } if (a<4) a++ else a=1 setTimeout(“rattleimage()”,50) } function stoprattle(which){ stopit=1 which.style.left=0 which.style.top=0 } </script> <img src=”https://i.pinimg.com/originals/3a/74/94/3a7494b12f3cebf78786a1d22b0be0d8.jpg” class=”shakeimage” onMouseover=”init(this);rattleimage()” onMouseout=”stoprattle(this);top.focus()” onClick=”top.focus()” width=”63″ height=”73″> 
-    
-    <h2>Foreground</h2>
+    <h2>Text</h2>
     <select onchange="document.fgColor=this.value">
         <option value="#000000"> black</option>
         <option value="#FFA500"> orange</option>
@@ -33,7 +29,8 @@
         <option value="#FF0000"> red</option>
         <option value="#FFFFFF"> white</option>
     </select>
-
+    
+    <img.src="https://scontent.fzty2-1.fna.fbcdn.net/v/t1.0-9/67837521_3016008081958478_9191308091650473984_o.jpg?_nc_cat=103&amp;_nc_oc=AQmTUbfAdv_WSm3bfaZioJJIIMksFoPK12oluAiovhunkw8ywrB-EhnBY1K1tnUv2MI&amp;_nc_ht=scontent.fzty2-1.fna&amp;oh=1c81b8a673f2a5a7ab858d69819c6604&amp;oe=5E2E0B9F">       
 </body>
 
 </html>
