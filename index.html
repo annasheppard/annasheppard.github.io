@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-  <h1>Anna's Website</h1>
-  <img src="https://i.pinimg.com/originals/3a/74/94/3a7494b12f3cebf78786a1d22b0be0d8.jpg">
+
+    <h1>Anna's Website</h1>
+
+    <img src="https://i.pinimg.com/originals/3a/74/94/3a7494b12f3cebf78786a1d22b0be0d8.jpg">
+    
+    <h2>Foreground</h2>
+    <select onchange="document.fgColor=this.value">
+        <option value="#000000"> black</option>
+        <option value="#FFA500"> orange</option>
+        <option value="#CA2C92"> fuschia</option>
+        <option value="#FCF4A3"> light yellow</option>
+        <option value="#00FF00"> green</option>
+        <option value="#00FFFF"> cyan</option>
+        <option value="#FFFF00"> yellow</option>
+        <option value="#FF0000"> red</option>
+        <option value="#FFFFFF"> white</option>
+    </select>
+
+    <h2>Background</h2>
+    <select onchange="document.bgColor=this.value">
+        <option value="#000000"> black</option>
+        <option value="#FFA500"> orange</option>
+        <option value="#CA2C92"> fuschia</option>
+        <option value="#FCF4A3"> light yellow</option>
+        <option value="#00FF00"> green</option>
+        <option value="#00FFFF"> cyan</option>
+        <option value="#FFFF00"> yellow</option>
+        <option value="#FF0000"> red</option>
+        <option value="#FFFFFF"> white</option>
+    </select>
+
 </body>
- <select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
-    <br>
-    <option value=”black”>black
-        <option value=”orange”>orange
-            <option value=”flamingred”>fuschia
-                <option value=”lightyellow”>light yellow
-                    <option value=”green”>green
-                        <option value=”cyan”>cyan
-                            <option value=”yellow”>yellow
-                                <option value=”red”>red
-                                    <option value=”white”>white</option>
-   <br>
-<select name=”clr” onchange=”document.fgColor=this.options[this.selectedIndex].value” size=”1″>
-    <br>
-    <option value=”black”>black
-        <option value=”orange”>orange
-            <option value=”flamingred”>fuschia
-                <option value=”lightyellow”>light yellow
-                    <option value=”cyan”>cyan
-                        <option value=”yellow”>yellow
-                            <option value=”red”>red
-                                <option value=”white”>white</option>
-</select>&nbsp;&nbsp;Text Color
-</select>&nbsp;&nbsp;Background Color
+
 </html>
